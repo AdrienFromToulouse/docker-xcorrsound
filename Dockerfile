@@ -46,3 +46,6 @@ WORKDIR /usr/local/scape-xcorrsound/build
 RUN pwd && ls -la
 RUN cmake ..
 RUN make && make install
+
+ENTRYPOINT ["waveform-compare"]
+CMD ["--help"]
