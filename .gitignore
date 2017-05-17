@@ -1,0 +1,33 @@
+# Runtime data
+*.log
+*.pid
+*.seed
+/build
+dist
+/logs
+pids
+/tmp
+tmp/
+
+# Yarn
+.cache
+
+#IDE
+**/.idea
+
+# OS
+.DS_Store
+.tmp
+
+# Dependency directory
+node_modules
+
+# Reports
+.nyc_output
+coverage
+results
+jest
+
+# IDEs
+.idea
+atlassian-ide-plugin.xml
